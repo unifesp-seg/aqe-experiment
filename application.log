@@ -1,0 +1,77 @@
+Seg, 04/01/2016 10:08:08 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14a61465: startup date [Mon Jan 04 10:08:08 BRST 2016]; root of context hierarchy
+Seg, 04/01/2016 10:08:08 - Loading XML bean definitions from class path resource [spring.xml]
+Seg, 04/01/2016 10:08:09 - Building JPA container EntityManagerFactory for persistence unit 'persistenceUnit'
+Seg, 04/01/2016 10:08:09 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Seg, 04/01/2016 10:08:09 - HHH000412: Hibernate Core {4.0.1.Final}
+Seg, 04/01/2016 10:08:09 - HHH000206: hibernate.properties not found
+Seg, 04/01/2016 10:08:09 - HHH000021: Bytecode provider name : javassist
+Seg, 04/01/2016 10:08:10 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Seg, 04/01/2016 10:08:10 - HHH000115: Hibernate connection pool size: 20
+Seg, 04/01/2016 10:08:10 - HHH000006: Autocommit mode: true
+Seg, 04/01/2016 10:08:10 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/aqe-experiment]
+Seg, 04/01/2016 10:08:10 - HHH000046: Connection properties: {user=root, password=123, autocommit=true, release_mode=auto}
+Seg, 04/01/2016 10:08:11 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Seg, 04/01/2016 10:08:11 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Seg, 04/01/2016 10:08:11 - HHH000397: Using ASTQueryTranslatorFactory
+Seg, 04/01/2016 10:08:11 - HHH000228: Running hbm2ddl schema update
+Seg, 04/01/2016 10:08:11 - HHH000102: Fetching database metadata
+Seg, 04/01/2016 10:08:11 - HHH000396: Updating schema
+Seg, 04/01/2016 10:08:11 - HHH000261: Table found: aqe-experiment.analise_function
+Seg, 04/01/2016 10:08:11 - HHH000037: Columns: [id, description, occurences, number, surveynumber, relevantssolrids]
+Seg, 04/01/2016 10:08:11 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:11 - HHH000126: Indexes: [primary]
+Seg, 04/01/2016 10:08:11 - HHH000261: Table found: aqe-experiment.analise_function_response
+Seg, 04/01/2016 10:08:11 - HHH000037: Columns: [analisefunction, totalintersections, frequenciesrank, originalmethodname, surveyresponse, params, sourcererquery, totalresults, execution, returntype, id, totalrelevants, methodname, recall, precis]
+Seg, 04/01/2016 10:08:11 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:11 - HHH000126: Indexes: [fk6e6f7bec2c29a520, primary, fk6e6f7bec59dc2e66, fk6e6f7bece9ca0186]
+Seg, 04/01/2016 10:08:12 - HHH000261: Table found: aqe-experiment.execution
+Seg, 04/01/2016 10:08:12 - HHH000037: Columns: [id, executiontimestamp, autodescription, number]
+Seg, 04/01/2016 10:08:12 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:12 - HHH000126: Indexes: [primary]
+Seg, 04/01/2016 10:08:12 - HHH000261: Table found: aqe-experiment.solr_result
+Seg, 04/01/2016 10:08:12 - HHH000037: Columns: [fqn, id, rank, paramcount, analisefunction, entityid, score, params, returnfqn]
+Seg, 04/01/2016 10:08:12 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:12 - HHH000126: Indexes: [fk776ee1ae9ca0186, primary]
+Seg, 04/01/2016 10:08:12 - HHH000261: Table found: aqe-experiment.survey_response
+Seg, 04/01/2016 10:08:12 - HHH000037: Columns: [copianome, methodname21, methodname20, params21, nivelingles, params20, niveljava, methodname19, methodname17, methodname18, methodname15, methodname16, methodname14, methodname13, methodname12, methodname11, methodname10, email, nome, return10, params7, vinculo, params6, params9, params8, escreveingles, atuacao, execution, timestamp, id, params1, return8, conviteemail, params2, return9, params3, return19, params4, params5, return4, return17, perfil, return5, return18, lixo, return6, return15, return7, return16, return13, return14, return1, falaingles, return2, return11, return3, return12, methodname8, methodname9, return21, compreendeingles, return20, methodname4, methodname5, methodname6, methodname7, methodname1, methodname2, methodname3, params18, params17, params19, params14, params13, params16, leingles, params15, questoes, params10, params12, params11, origem]
+Seg, 04/01/2016 10:08:12 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:12 - HHH000126: Indexes: [fk803643862c29a520, primary]
+Seg, 04/01/2016 10:08:12 - HHH000232: Schema update complete
+Seg, 04/01/2016 10:08:12 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11b3a10d: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,AQEService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,analiseFunctionRepository,analiseFunctionResponseRepository,executionRepository,surveyResponseRepository,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Seg, 04/01/2016 10:08:15 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3fa554e4: startup date [Mon Jan 04 10:08:15 BRST 2016]; root of context hierarchy
+Seg, 04/01/2016 10:08:15 - Loading XML bean definitions from class path resource [spring.xml]
+Seg, 04/01/2016 10:08:15 - Building JPA container EntityManagerFactory for persistence unit 'persistenceUnit'
+Seg, 04/01/2016 10:08:15 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Seg, 04/01/2016 10:08:15 - HHH000115: Hibernate connection pool size: 20
+Seg, 04/01/2016 10:08:15 - HHH000006: Autocommit mode: true
+Seg, 04/01/2016 10:08:15 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/aqe-experiment]
+Seg, 04/01/2016 10:08:15 - HHH000046: Connection properties: {user=root, password=123, autocommit=true, release_mode=auto}
+Seg, 04/01/2016 10:08:15 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Seg, 04/01/2016 10:08:15 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Seg, 04/01/2016 10:08:15 - HHH000397: Using ASTQueryTranslatorFactory
+Seg, 04/01/2016 10:08:15 - HHH000228: Running hbm2ddl schema update
+Seg, 04/01/2016 10:08:15 - HHH000102: Fetching database metadata
+Seg, 04/01/2016 10:08:15 - HHH000396: Updating schema
+Seg, 04/01/2016 10:08:15 - HHH000261: Table found: aqe-experiment.analise_function
+Seg, 04/01/2016 10:08:15 - HHH000037: Columns: [id, description, occurences, number, surveynumber, relevantssolrids]
+Seg, 04/01/2016 10:08:15 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:15 - HHH000126: Indexes: [primary]
+Seg, 04/01/2016 10:08:15 - HHH000261: Table found: aqe-experiment.analise_function_response
+Seg, 04/01/2016 10:08:15 - HHH000037: Columns: [analisefunction, totalintersections, frequenciesrank, originalmethodname, surveyresponse, params, sourcererquery, totalresults, execution, returntype, id, totalrelevants, methodname, recall, precis]
+Seg, 04/01/2016 10:08:15 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:15 - HHH000126: Indexes: [fk6e6f7bec2c29a520, primary, fk6e6f7bec59dc2e66, fk6e6f7bece9ca0186]
+Seg, 04/01/2016 10:08:15 - HHH000261: Table found: aqe-experiment.execution
+Seg, 04/01/2016 10:08:15 - HHH000037: Columns: [id, executiontimestamp, autodescription, number]
+Seg, 04/01/2016 10:08:15 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:15 - HHH000126: Indexes: [primary]
+Seg, 04/01/2016 10:08:15 - HHH000261: Table found: aqe-experiment.solr_result
+Seg, 04/01/2016 10:08:15 - HHH000037: Columns: [fqn, id, rank, paramcount, analisefunction, entityid, score, params, returnfqn]
+Seg, 04/01/2016 10:08:15 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:15 - HHH000126: Indexes: [fk776ee1ae9ca0186, primary]
+Seg, 04/01/2016 10:08:16 - HHH000261: Table found: aqe-experiment.survey_response
+Seg, 04/01/2016 10:08:16 - HHH000037: Columns: [copianome, methodname21, methodname20, params21, nivelingles, params20, niveljava, methodname19, methodname17, methodname18, methodname15, methodname16, methodname14, methodname13, methodname12, methodname11, methodname10, email, nome, return10, params7, vinculo, params6, params9, params8, escreveingles, atuacao, execution, timestamp, id, params1, return8, conviteemail, params2, return9, params3, return19, params4, params5, return4, return17, perfil, return5, return18, lixo, return6, return15, return7, return16, return13, return14, return1, falaingles, return2, return11, return3, return12, methodname8, methodname9, return21, compreendeingles, return20, methodname4, methodname5, methodname6, methodname7, methodname1, methodname2, methodname3, params18, params17, params19, params14, params13, params16, leingles, params15, questoes, params10, params12, params11, origem]
+Seg, 04/01/2016 10:08:16 - HHH000108: Foreign keys: []
+Seg, 04/01/2016 10:08:16 - HHH000126: Indexes: [fk803643862c29a520, primary]
+Seg, 04/01/2016 10:08:16 - HHH000232: Schema update complete
+Seg, 04/01/2016 10:08:16 - HHH000436: Entity manager factory name (persistenceUnit) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+Seg, 04/01/2016 10:08:16 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4916de75: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,AQEService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,analiseFunctionRepository,analiseFunctionResponseRepository,executionRepository,surveyResponseRepository,entityManagerFactory,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
