@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>br.unifesp.ppgcc</groupId>
 			<artifactId>sourcerer-aqe</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.4</version>
 		</dependency>
 
 	</dependencies>

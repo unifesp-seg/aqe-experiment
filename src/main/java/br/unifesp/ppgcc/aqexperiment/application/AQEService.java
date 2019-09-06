@@ -15,7 +15,6 @@ import br.unifesp.ppgcc.aqexperiment.domain.SurveyResponse;
 import br.unifesp.ppgcc.aqexperiment.domain.helper.TagCloudMutantQuery;
 import br.unifesp.ppgcc.aqexperiment.domain.helper.TagCloudWord;
 import br.unifesp.ppgcc.aqexperiment.infrastructure.AnaliseFunctionRepository;
-import br.unifesp.ppgcc.aqexperiment.infrastructure.AnaliseFunctionResponseRepository;
 import br.unifesp.ppgcc.aqexperiment.infrastructure.ExecutionRepository;
 import br.unifesp.ppgcc.aqexperiment.infrastructure.SurveyResponseRepository;
 import br.unifesp.ppgcc.aqexperiment.infrastructure.util.ConfigProperties;
@@ -34,9 +33,6 @@ public class AQEService {
 
 	@Autowired
 	private AnaliseFunctionRepository analiseFunctionRepository;
-
-	@Autowired
-	private AnaliseFunctionResponseRepository analiseFunctionResponseRepository;
 
 	@Autowired
 	private SurveyResponseRepository surveyResponseRepository;

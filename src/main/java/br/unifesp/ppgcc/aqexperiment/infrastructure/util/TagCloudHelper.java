@@ -20,7 +20,6 @@ import br.unifesp.ppgcc.sourcereraqe.infrastructure.RelatedSearchResult;
 import edu.uci.ics.sourcerer.services.search.adapter.SearchAdapter;
 import edu.uci.ics.sourcerer.services.search.adapter.SearchResult;
 
-@SuppressWarnings("restriction")
 public class TagCloudHelper {
 	
 	private static String relatedWordsServiceUrl = null;;

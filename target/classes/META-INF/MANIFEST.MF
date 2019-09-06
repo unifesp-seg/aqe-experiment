@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
+mode: development
 Built-By: adrianocarv
-Build-Jdk: 1.8.0_91
 Class-Path: lib/commons-lang-2.5.jar lib/log4j-1.2.16.jar lib/jxl-2.6.
  jar lib/mysql-connector-java-5.1.21.jar lib/hibernate-jpa-2.0-api-1.0
  .1.Final.jar lib/hibernate-entitymanager-4.0.1.Final.jar lib/jboss-tr
@@ -12,9 +12,10 @@ Class-Path: lib/commons-lang-2.5.jar lib/log4j-1.2.16.jar lib/jxl-2.6.
   lib/spring-context-3.2.3.RELEASE.jar lib/spring-aop-3.2.3.RELEASE.ja
  r lib/spring-beans-3.2.3.RELEASE.jar lib/spring-expression-3.2.3.RELE
  ASE.jar lib/spring-tx-3.2.3.RELEASE.jar lib/aopalliance-1.0.jar lib/s
- pring-orm-3.2.3.RELEASE.jar lib/spring-jdbc-3.2.3.RELEASE.jar
-Main-Class: br.adm.b2.batch.core.interfaces.daemon.B2BatchMain
+ pring-orm-3.2.3.RELEASE.jar lib/spring-jdbc-3.2.3.RELEASE.jar lib/sou
+ rcerer-search-1.0.jar lib/sourcerer-aqe-1.0.4.jar
+Build-Jdk: 1.8.0_201
 Created-By: Maven Integration for Eclipse
-mode: development
 url: 
+Main-Class: br.adm.b2.batch.core.interfaces.daemon.B2BatchMain
 
